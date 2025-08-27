@@ -1,0 +1,11 @@
+{
+  "training_on_patches" : 
+  {
+    "input_dir": "/scratch/7DayLifetime/munjung/pdune",
+    "nb_classes" : 3,
+    "nb_epoch"   : 100,
+    "img_size_w"   : 584,
+    "img_size_d"   : 256,
+    "model": "/home/munjung/real_time_AI/models/model_bestacc20250721.pt"
+  }
+}
