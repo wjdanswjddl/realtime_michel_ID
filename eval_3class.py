@@ -70,8 +70,6 @@ def main(args):
     
     IMG_SIZE_W = config['training_on_patches']['img_size_w']
     IMG_SIZE_D = config['training_on_patches']['img_size_d']
-    N_CLASSES = config['training_on_patches']['nb_classes']
-    N_EPOCH = config['training_on_patches']['nb_epoch']
     
     X, Y = update_dataloader(dirs_eval, None, None, IMG_SIZE_W, IMG_SIZE_D)
     X = torch.as_tensor(X, dtype=torch.float32, device=device)
